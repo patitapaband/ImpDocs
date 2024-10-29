@@ -1,0 +1,16 @@
+Go to the folder location --> right click and Open--> Git Bash
+--------------------
+git inti
+git add .
+git commit -m "add files"
+git branch -M main
+git remote add origin https://github.com/patitapaband/Bike-Sharing-Assignment.git
+git push -u origin main
+-----------------------------------------
+if it failed and not accepted the code
+-------------------------------------
+
+git checkout -b my-new-branch
+git add .
+git commit -m "New Branch"
+git push -u origin my-new-branch
